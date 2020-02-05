@@ -4,11 +4,9 @@ import "fmt"
 
 func main() {
 
-  // 第1引数
   var cnt int
   fmt.Scan(&cnt);
   
-  // 第2引数
   var nums = make([]int,cnt)
   for i := 0 ; i < cnt ; i++ {
      fmt.Scan(&nums[i])

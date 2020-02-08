@@ -2,11 +2,14 @@ package main
 
 import "fmt"
 
+//in
+//3
+//8 12 40
 func main() {
 
   var cnt int
-  fmt.Scan(&cnt);
-  
+  fmt.Scan(&cnt)
+
   var nums = make([]int,cnt)
   for i := 0 ; i < cnt ; i++ {
      fmt.Scan(&nums[i])

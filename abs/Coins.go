@@ -4,6 +4,13 @@ import (
   "fmt"
 )
 
+/**
+in
+2
+2
+2
+100
+ */
 func main() {
   var a, b, c, target int
   fmt.Scan(&a, &b, &c, &target)
